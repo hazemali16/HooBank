@@ -6,7 +6,7 @@ import { circle } from '../assets'
 
 const Hero = () => {
   return (
-    <div className="h-screen flex items-center overflow-hidden relative">
+    <div className="h-screen flex items-center overflow-hidden relative animate-opacity-top translate-y-16 opacity-0">
         <div className="bg-white absolute w-[195px] h-[324px] shrink-0 rounded-[324px] blur-[200px] top-[30%] -left-10"></div>
         <div className="bg-[#FFFFFF99] absolute w-[405px] h-[471px] shrink-0 rounded-[324px] blur-[100px] top-[5%] right-10"></div>
         <div style={{background: "linear-gradient(90deg, rgba(26, 41, 128, 0.50) 0%, rgba(38, 208, 206, 0.50) 100%)"}} className="rounded-[200px] absolute w-[482.59px] h-[615.14px] shrink-0 blur-[200px] top-[15%] -right-10 -rotate-[67.37deg]"></div>

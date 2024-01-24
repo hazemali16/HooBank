@@ -11,9 +11,9 @@ const NavBar = () => {
       />
       <ul className='list-none flex items-center gap-5'>
         <li className='duration-300 text-white'><a href='#'>Home</a></li>
-        <li className='duration-300 text-[#FFFFFFB2] hover:text-white'><a href='#'>About Us</a></li>
-        <li className='duration-300 text-[#FFFFFFB2] hover:text-white'><a href='#'>Features</a></li>
-        <li className='duration-300 text-[#FFFFFFB2] hover:text-white'><a href='#'>Solution</a></li>
+        <li className='duration-300 text-[#FFFFFFB2] hover:text-white'><a href='#about'>About Us</a></li>
+        <li className='duration-300 text-[#FFFFFFB2] hover:text-white'><a href='#features'>Features</a></li>
+        <li className='duration-300 text-[#FFFFFFB2] hover:text-white'><a href='#solution'>Solution</a></li>
       </ul>
     </div>
   )

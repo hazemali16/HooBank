@@ -3,7 +3,7 @@ import { apple, bill, google } from '../assets'
 
 const Billing = () => {
   return (
-    <div className="sm:w-[80%] w-full mx-auto max-sm:px-5 flex items-center gap-40 relative max-lg:flex-col">
+    <div id='features' className="billing sm:w-[80%] w-full mx-auto max-sm:px-5 flex items-center gap-40 relative max-lg:flex-col translate-y-16 opacity-0">
         <div className="bg-[#FFFFFF99] absolute w-[405px] h-[471px] rotate-[176.617deg] shrink-0 rounded-[471px] blur-[200px] -top-16 -left-[40%]"></div>
         <div style={{background: "linear-gradient(90deg, #F4C4F3 0%, #FC67FA 100%)"}} className="absolute w-[345px] h-[514px] rotate-[156.607deg] shrink-0 rounded-[200px] blur-[350px] top-[20%] -left-[40%]"></div>
         <Image 

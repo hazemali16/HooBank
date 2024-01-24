@@ -2,7 +2,7 @@
 
 const Says = () => {
   return (
-    <div className="sm:w-[80%] w-full mx-auto max-sm:px-5 flex justify-between items-center max-md:flex-col">
+    <div id="solution" className="sm:w-[80%] w-full mx-auto max-sm:px-5 flex justify-between items-center max-md:flex-col translate-y-16 opacity-0 says">
               <h2 className="lg:text-[48px] text-[30px] ">
               What people are 
                 <br />
