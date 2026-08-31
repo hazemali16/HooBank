@@ -1,6 +1,5 @@
 # HooBank
 
-![HooBank Preview](./assets/preview.png)
 
 A modern fintech landing page built from a Figma design and implemented as a responsive Next.js frontend.
 
