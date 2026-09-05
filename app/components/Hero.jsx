@@ -45,6 +45,7 @@ const Hero = () => {
         </div>
         <div className='basis-[40%] hidden lg:block'>
             <Image 
+            className="w-full"
             src={robot}
             alt='robot'
             width={760}
