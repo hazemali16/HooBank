@@ -2,7 +2,7 @@
 
 const GetStarted = () => {
   return (
-    <div className="sm:w-[80%] w-[95%] mx-auto h-[290px] flex justify-center items-center gap-20 main_box my-20 max-sm:flex-col max-sm:h-[400px] max-sm:p-10 get-started translate-y-16 opacity-0 rounded-xl">
+    <div className="sm:w-[80%] w-[95%] mx-auto h-[290px] flex justify-center items-center gap-20 main_box my-20 max-sm:flex-col max-sm:h-[400px] max-sm:p-10 get-started translate-y-16 opacity-0 rounded-xl max-sm:h-fit">
         <div className="basis-[60%]">
         <h2 className="lg:text-[48px] text-[30px] ">
         Let’s try our service now!
